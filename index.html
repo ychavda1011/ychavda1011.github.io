@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Yogesh Chavda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="Navbar.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Skills.css">
+    <link rel="stylesheet" href="ContactMe.css">
+
+    <link rel="javascript" href="javascript.js">
+</head>
+
+<body>
+    <!-- nevbar -->
+    <div id="header">
+        <div class="navbarlock">
+            <nav>
+                <div class="_1_nav">
+                    <a class="logo">Yogesh Chavda</a>
+                </div>
+                <div class="_2_nav" id="_2_id_nav">
+                    <div class="side-menu">
+                        <ul id="side-menu">
+                            <li class="active"><a href="#header">Home</a></li>
+                            <li class="active"><a href="#About-section">About</a></li>
+                            <li class="active"><a href="#Skills-section">Skills</a></li>
+                            <li class="active"><a href="#footertext">Contact</a></li>
+                            <li><a href="Resume/YOGESH_CHAVDA_AIML.pdf" class="resume">Resume</a></li>
+                            <img src="data/icons/close.svg"  alt="..." class="menu contact_icon" onclick="closemenu()">
+                        </ul>
+                    </div>
+                    
+                    <img src="data/icons/menu.svg" alt="..." class="menu contact_icon" style="margin-right: 0%;" onclick="openmenu()">
+                </div>
+                
+            </nav>
+        </div>
+        <div class="container">
+            <div id="Home-section" class="Home d-flex justify-content-between align-items-center"> <!-- Added flexbox classes for alignment -->
+                <div> <!-- Wrapped text content in a div for layout control -->
+                    <p>Hi, My name is</p>
+                    <h1>Yogesh Chavda</h1>
+                    <p class="Home_discription" style="max-width: 800px;">Eager to apply my programming and data analysis skills to develop
+                        innovative solutions using AI and ML technology.</p>
+                    <button class="resume"><a href="Resume/YOGESH_CHAVDA_AIML.pdf"
+                            style="color: #64FFDA; background:#020C1B; text-decoration: none;">Resume</a></button>
+                </div>
+                <div> <!-- Container for the image -->
+                    <img src="Image/Yogesh-solid.png" alt="Yogesh Chavda" style="max-width: 60%; height: auto;"> <!-- Image tag with source and alt text -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="About-section">
+        <div class="container">
+            <div class="About-sec">
+                <h2 class="title">About</h2>
+                <p class="discription">Throughout my coursework in Computer Science with a specialization in Artificial
+                    Intelligence and Machine Learning, I have gained practical experience in programming languages such
+                    as Python and Java, as well as data analysis tools such as Pandas and NumPy. I have also worked on
+                    projects involving machine learning algorithms, natural language processing, and computer vision.
+                    <br><br>In addition to my technical skills, I am a dedicated learner who is always seeking to expand
+                    my knowledge and stay up-to-date with the latest advancements in the field. I am passionate about
+                    using technology to solve complex problems and make a positive impact on society and also excited to
+                    bring my skills and passion for AI and ML to a challenging and rewarding career.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Skills-section">
+        <div class="skill_div">
+            <h5 class="title" style="color:#64FFDA">Skills</h5>
+            <div id="Skills">
+                <div class="container-inside">
+                    <div class="row row-cols-1 row-cols-md-2 Yogesh">
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/programmer.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="align-self: center;">Programing
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <div class="card-body-inside">
+                                            <li>Python</li>
+                                            <li>HTML</li>
+                                            <li>css</li>
+                                            <li>Java</li>
+                                        </div>
+                                        <div class="card-body-inside">
+                                            <li>React</li>
+                                            <li>xml</li>
+                                        </div>
+                                        
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/monitor.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="margin-top: 0px;">Data analysis
+                                        and<br>Manipulation tools</h5>
+                                    <!-- <h5 class="card-title title" style="margin-top: 0px;"></h5> -->
+                                </div>
+
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <div class="card-body-inside">
+                                            <li>Pandas</li>
+                                            <li>NumPy</li> 
+                                            <li>Seaborn</li>
+                                            <li>Matplotlib</li> 
+                                        </div>
+                                        <div class="card-body-inside, card-body-inside-right">
+                                            <li>Tableau</li>
+                                            <li>Excel</li>
+                                            <!-- <li></li> -->
+                                            <!-- <li></li> -->
+                                        </div>
+                                          
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-2 Yogesh">
+                        <div class="col">
+                            <div class="card Ut_card ">
+                                <div class="card_head">
+                                    <img src="data/images/artificial-intelligence.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card">Machine Learning<br>Algorithms</h5>
+                                </div>
+
+                                <div class="card-body">
+                                    <p class="card-text">
+                                    <ul class="info">
+                                        <li>Supervised-Unsupervised learning </li>
+                                        <li>Linear-Logistic regression</li>
+                                        <li>Decision trees</li>
+                                        <li>Random forest</li>
+                                        <!-- <li>Deep learning</li> -->
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col ">
+                            <div class="card Ut_card ">
+
+                                <div class="card_head">
+                                    <img src="data/images/framework.png" class="card-img-top image" alt="...">
+                                    <h5 class="card-title title-of-card" style="line-height: 52px;">Frameworks</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text info">
+                                    <ul class="info">
+                                        <li>TensorFlow</li>
+                                        <li>scikit-learn</li>
+                                        <li>PyTorch</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="Contact-section">
+        <div class="container">
+            <div class="contact-sec">
+                <h1 class="title">Contact Me</h1>
+                <div class="row">
+                    <div class="left">                     
+                        <div id="mobile_no" class="contact-info">
+                            <img src="data/icons/phone.svg" alt="..." class="contact_icon">
+                            <h5 class="contact_description">6353829282</h5>
+                        </div>
+
+                        <div id="email" class="contact-info">
+                            <img src="data/icons/Email.svg" alt="..." class="contact_icon">
+                            
+                                <h5 class="contact_description emailh5">work.yogesh3@gmail.com</h5>
+                        </div>
+
+                        <div id="linkedin" class="contact-info">
+                            <img src="data/icons/linkedin.svg" alt="..." class="contact_icon" >
+                            <a class="contact_description" href="https://www.linkedin.com/in/yogeshchavda03/">yogeshchavda03</a> 
+                        </div>
+
+                        <div id="github" class="contact-info">
+                            <img src="data/icons/github.svg" alt="..." class="contact_icon">
+                            <a class="contact_description" href="https://github.com/ychavda1011">ychavda1011</a>
+                        </div>
+
+                        <div id="github" class="contact-info">
+                            <img src="data/icons/download.svg" alt="..." class="contact_icon">
+                            <a class="contact_description" href="Resume/YOGESH_CHAVDA_AIML.pdf">Resume</a>
+                        </div>
+
+
+
+                        <!-- <div id="download-buttons">
+                            <div id="resume-download">
+                                <button class="resume-download">
+                                    <img src="data/icons/resume-download.svg" alt="..." class="button-img">
+                                    <a href="Resume/YOGESH_CHAVDA_AIML.pdf.pdf">Resume</a>
+                                </button>
+                            </div>
+
+                            <div id="cv-download">
+                                <button class="resume-download">
+                                    <img src="data/icons/cv-download.svg" alt="..." class="button-img" >
+                                    <a href="Resume/YOGESH_CHAVDA_AIML.pdf.pdf" style="text-decoration: none; color:#64FFDA;">C.V.</a>
+                                </button>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="right">
+                        <form name="submit-to-google-sheet"> 
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter Your E-mail" required>
+                            <textarea name="message" rows="3" placeholder="Enter Your Message"></textarea>
+                            <button class="button_submit" type="submit">
+                                <div class="svg-wrapper-1">
+                                  <div class="svg-wrapper">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M0 0h24v24H0z" fill="none"></path>
+                                      <path d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z" fill="currentColor"></path>
+                                    </svg>
+                                  </div>
+                                </div>
+                                <span>Send</span>
+                            </button>
+                        </form>
+                        <span id="message"></span>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+    <div id="social-links">
+        <div class="social-links">
+            <a href="https://github.com/ychavda1011">
+                <img id="github" class="social-link-items" src="data/social_links/github.svg" alt="github">
+                <!-- onmouseover='$("#span1").show();' onmouseout='$("#span1").hide();'>
+                <div class="social-links-span"><button id="span1" ><span>github</span></button></div> -->
+            </a>
+            <a href="https://www.linkedin.com/in/yogeshchavda03/">
+                <img id="linkedin" class="social-link-items" src="data/social_links/linkedin.svg" alt="linkedin">
+                <!-- onmouseover='$("#span2").show();' onmouseout='$("#span2").hide();'>
+                <div class="social-links-span"><button id="span2" ><span>linkedin</span></button></div> -->
+            </a>
+            <a href="https://www.instagram.com/yogesh.10.11?igsh=MWl5d3AzMmtvaWdpcA==">
+                <img id="instagram" class="social-link-items" src="data/social_links/instagram.svg" alt="instagram">
+                <!-- onmouseover='$("#span3").show();' onmouseout='$("#span3").hide();'>
+                <div class="social-links-span"><button id="span3" ><span>instagram</span></button></div> -->
+            </a>
+             
+            <a href="https://twitter.com/yogeshchavda01">
+                <img id="twitter" class="social-link-items" src="data/social_links/twitter.svg" alt="twitter">
+                <!-- onmouseover='$("#span4").show();' onmouseout='$("#span4").hide();'>
+                <div class="social-links-span"><button id="span4"><span>twitter</span></button></div> -->
+            </a>
+            <a href="">
+                <img id="line" claas="line" src="data/social_links/line.svg" alt="line">
+            </a>
+        </div>
+    </div>
+
+    <div id="backtotop">
+        <a href="#header"><img src="data/icons/BackToTop.svg"alt="..."></a>
+    </div>
+
+</body>
+
+<footer id="footertext">
+    <p> &copy; All Rights Reserved</p>
+</footer>
+
+<script>
+    var sidemenu = document.getElementById("side-menu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    
+    }
+    
+    function closemenu(){
+        sidemenu.style.right = "-285px";
+    
+    }
+</script>
+ 
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzEeIvNgNQ4hwfZK5JIsBZvl8ZRvLN06ZwRodEuAXS2lBEDR8lkwRgMun9YfpChIMKuaQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const message= document.getElementById("message")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        message.innerHTML="&#x2713; Message Submitted!"
+        setTimeout(function(){
+            message.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</html>
+
+
+
