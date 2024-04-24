@@ -1,0 +1,32 @@
+.About-sec{
+    margin-top: 20%;
+    font-size: 24px;
+}
+
+.title{
+    color:#64FFDA;
+    font-size: 40px;
+    font-style: normal;
+    text-align: center;
+}
+
+.discription{
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    margin-top: 32px;
+    color: #A8B2D1;
+    text-align: justify;
+    line-height: 30px;
+}
+@media only screen and (max-width: 1000px){
+
+    .discription{
+        text-align:left;
+    }
+
+}
+@media only screen and (max-width: 800px){
+    .About-sec{
+      margin-top: 25%;
+    }
+  }

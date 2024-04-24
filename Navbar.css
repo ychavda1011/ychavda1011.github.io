@@ -1,0 +1,175 @@
+header{
+	width: 100%;
+	height: 100vh;
+	
+	}
+.container{
+	padding: 10px 42px;
+
+}
+
+nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 10px;
+}
+.navbarlock{
+		/* glass morphisam */
+		background: rgba( 2, 12, 27, 0.75 );
+		box-shadow: 0 8px 32px 0 #000000;
+		backdrop-filter: blur( 5px );
+		-webkit-backdrop-filter: blur( 5px );
+		border-radius: 10px;
+		border: 1px solid #000000;
+
+		z-index: 999;
+}
+._1_nav{
+	margin-left: 9%
+}
+._2_nav{
+	margin-right: 8%;
+}
+
+.logo{
+	cursor: pointer;
+	margin-top: 0px;
+    font-size: 28px;
+    font-family: Poppins;
+    text-decoration: none;
+    color: #64FFDA;
+}
+.logo:hover{
+	color: #64FFDA;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	margin-right: 0px;
+	padding: 10px 16px;
+	padding-top: 16px;
+	
+
+}
+
+nav ul li a{
+	
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+#_2_id_nav li:active { 
+	color: #64FFDA; 
+ }
+
+#_2_id_nav li:active a {
+    color: #FFFFFF;
+}
+
+
+nav ul li a::after{
+	/* content: '';
+	width: 0;
+	height: 1.5px; */
+	background: #64FFDA;
+	position: absolute;
+	/* left: 0;
+	
+	bottom: -6px;
+	transition: 0.5s; */
+}
+nav ul li a:hover::after{
+	
+	width: 100%;
+	background-color:#64FFDA;
+}
+
+nav ul li a:hover{
+	color: #64FFDA;
+}
+
+
+
+nav .menu{
+	display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+	.navbarlock{
+		display: block;
+	}
+	nav{
+		
+		height: 100%;
+		overflow-y: hidden;
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+	nav .menu{
+		/* height: 100%; */
+		display: block;
+		
+
+	}
+	nav ul{
+		/* glass morphisam */
+		backdrop-filter: blur(14px) saturate(151%);
+		-webkit-backdrop-filter: blur(14px) saturate(151%);
+		background-color: rgba(2, 12, 27, 0.95);
+		border-radius: 12px;
+		border: 1px solid rgba(255, 255, 255, 0.125);
+		
+		position: fixed;
+		top: 0px;
+		/* bottom: 0px; */
+		right: -285px;
+		width: 280px;
+		/* height: 100%; */
+		
+		
+		padding-top: 50px;
+		z-index: 2;
+		transition: 200ms;
+		box-shadow: -5px 0px 10px rgba(100, 100, 100, 0.25);
+	}
+	nav ul li{
+		display: block;
+		margin: 24px;
+		margin-left: 0px;
+		
+	}
+	nav ul li a.resume{
+
+		
+		color: #ffffff;
+		border: none;
+		background: none;
+		
+		margin-top: 0px;
+		padding-top: 0px;
+  		padding-bottom: 0px;
+  		padding-left: 0px;
+  		padding-right: 0px;
+	}
+	nav ul li a{
+		font-family: 'Poppins';
+		font-style: bold;
+		color: #ffffff;
+	}
+	nav ul li a:hover{
+		color: #64FFDA;
+
+	}
+
+	nav ul .menu{
+		position: absolute;
+		top: 18px;
+		left: 24px;
+		cursor: pointer;
+	}
+}

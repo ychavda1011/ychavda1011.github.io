@@ -1,0 +1,99 @@
+.Home{
+  margin-top: 20%;
+  font-size: 24px;
+
+}
+
+.Home h1{
+  font-size: 56px;
+  margin-top: 16px;
+  color: #64FFDA;
+}
+.Home_discription
+{
+  margin-top: 16px;
+}
+
+.resume{
+
+  font-size: 18px;
+  color: #64FFDA;
+  text-align: center;
+  background-color: #020C1B;
+  margin-top: 8px;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1.8px solid #64FFDA;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 800px){
+  .Home{
+    margin-top: 35%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #Home-sec{
+    background-color: #020C1B;    
+}
+.home{
+
+    max-width: 700px;
+    margin-left: 15%;
+    margin-top: 15%;
+    padding: 0 50px;
+
+}
+
+.home_title{
+ 
+  font-size: 24px;
+  color:#64FFDA;
+  font-family: 'Poppins';
+  line-height: 36px;
+  
+}
+.home_title2{
+  
+  line-height: 16px;
+  font-style: bold;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-size: 36px;
+}
+.home_info{
+  padding-top:  16px;;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: 'Poppins';
+  color:#A8B2D1;
+
+  text-align: justify;
+}
+.resume{
+  font-size: 22px;
+  color: #64FFDA;
+  text-align: center;
+  background-color: #020C1B;
+  margin-top: 8px;
+  padding-top:16px;
+  padding-bottom:16px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border: 1.8px solid #64FFDA;
+  border-radius: 20px;
+} */
